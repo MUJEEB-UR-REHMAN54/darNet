@@ -43,12 +43,12 @@ a.navbar-brand{
   color: rgb(42, 110, 144);
 }
 div.jumbotron-img img{
-  margin-top: 50px;
+  /*margin-top: 50px;*/
   width: 100%;
   border-radius: 5%;
 }
 .jumbotron{
-  margin: 200px 0 200px;
+  margin: 50px 0 100px;
 }
 a.btn-primary{
   background-color: rgb(39, 99, 129);
