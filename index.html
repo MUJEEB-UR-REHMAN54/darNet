@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FA19-BCS-071</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      PREPAID
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Recharge</a></li>
+                      <li><a class="dropdown-item" href="#">New Prepaid Sim</a></li>
+                      <li><a class="dropdown-item" href="#packages">View Plans</a></li>
+                      <li><a class="dropdown-item" href="#">International Roaming</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Switch Prepaid to PostPaid</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      POSTPAID
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Pay Bill</a></li>
+                        <li><a class="dropdown-item" href="#packages">Buy new Connection</a></li>
+                        <li><a class="dropdown-item" href="#packages">View Plans</a></li>
+                        <li><a class="dropdown-item" href="#">International Roaming</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Switch PostPaid to Prepaid </a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      BROADBAND
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Pay bill / Recharge</a></li>
+                      <li><a class="dropdown-item" href="#">Buy New Connection</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#packages">View Plans</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      BANK
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">View Account</a></li>
+                      <li><a class="dropdown-item" href="#">Get New Account</a></li>
+                      <li><a class="dropdown-item" href="#">Add Money</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Know More</a></li>
+                    </ul>
+                  </li> <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      PTCL BLACK
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Pay Bill</a></li>
+                      <li><a class="dropdown-item" href="#packages">View Plans</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Special Offers</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      HELP
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#ContactUs">Contact Us</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else Here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link active" aria-current="page" href="">
+                      SIGN IN
+                    </a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link active" aria-current="page" href="">
+                      SIGN UP
+                    </a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <div id="offer">
+        <a id="pk-offer"  href="#packages">
+            <span>Limited time offer: </span>
+            <span id="demo"></span>
+        </a>
+        
+    </div>
+    <div class="main_content">
+        <div class="container-fluid">
+          <!-- <div class="row">
+            <div id="slideshow-example" data-component="slideshow">
+              <div role="list">
+                <div class="slide">
+                  <img src="./images/jumbtotron.png" alt="">
+                </div>
+                <div class="slide">
+                  <img src="./images/jumbotron_1.png" alt="">
+                </div>
+                <div class="slide">
+                  <img src="./images/jumbotron_2.png" alt="">
+                </div>
+                <div class="slide">
+                  <img src="./images/jumbotron_4.png" alt="">
+                </div>
+              </div>
+            </div> -->
+          </div>  
+          <!-- <div class="row jumbotron">
+              <div class="jumbotron-text col-md-6">
+                <h1 class="display-4">Presenting  <span>DarNet Office Network</span></h1>
+                <p class="lead">Everything your office needs to go Digital.</p>
+                <hr class="my-4">
+                <p>Enjoy the first 30 days free with <span>DarNet BLACK. </span> </p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Explore DarNet BLACK</a>
+              </div>
+              <div class=" jumbotron-img col-md-6">
+                <img src="jumbotron_3.png" alt="">
+            </div>
+          </div> -->
+        </div>
+                
+    </div>
+    <section class="packages">
+        <div class="container">
+            <div class="row packages">
+                <div class="col-md-6">
+                    <h2>Packages</h2>
+                    <p class="slogan">Our value based packages are powered by fully automated provisioning, support and payment systems</p>
+                </div>
+                <div class="col-md-6 pkg-png">
+                    <img src="./images/packages.png" alt="">
+                </div>
+            </div>
+            
+                <div class="package row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card">
+                        <img src="./images/card_1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Yellow Sorm Trippel Trifan Offer</h5>
+                          <p class="card-text">30Mbps</p>
+                          <p class="card-text">Rs. 7,999(w/0 tax)</p>
+                          <p class="card-text">One Time Installation Cost</p>
+                          <p class="card-text">Uplaod: 30Mbps</p>
+                          <p class="card-text">Downlaod: 30Mbps</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                          <img src="./images/card_2.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Yellow Sorm Trippel Trifan Offer</h5>
+                            <p class="card-text">50Mbps</p>
+                            <p class="card-text">Rs. 10,999(w/0 tax)</p>
+                            <p class="card-text">One Time Installation Cost</p>
+                            <p class="card-text">Uplaod: 50Mbps</p>
+                            <p class="card-text">Downlaod: 50Mbps</p>
+                          </div>
+                        </div>
+                      </div><div class="col">
+                        <div class="card">
+                          <img src="./images/card_3.png" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Yellow Sorm Trippel Trifan Offer</h5>
+                            <p class="card-text">100Mbps</p>
+                            <p class="card-text">Rs. 14,999(w/0 tax)</p>
+                            <p class="card-text">One Time Installation Cost</p>
+                            <p class="card-text">Uplaod: 100Mbps</p>
+                            <p class="card-text">Downlaod: 100Mbps</p>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            
+        </div>
+    </section>
+
+    <section id="ContactUs">
+		<div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h2>Contact Us</h2>
+        </div>
+        <div class="col-md-8 col-lg-6" >
+          <div class= "contact mx-auto" action="backend.php">
+        
+            <div class="form-floating mb-3">
+                          <input  class="form-control" id="floatingFName" placeholder="Ahmad">
+                          <label for="floatingFName">First Name:</label>
+                      </div>
+                      <div class="form-floating mb-3">
+                          <input  class="form-control" id="floatingLName" placeholder="Raza">
+                          <label for="floatingLName">Last Name:</label>
+                      </div>
+                      <div class="form-floating mb-3">
+                          <input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com">
+                          <label for="floatingInput">Email address</label>
+                      </div>
+                      <div class="form-floating">
+                          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                          <label for="floatingTextarea2">Comments</label>
+                        </div>
+            <button id="_send" class="btn btn-primary">Send</button>
+                      
+          </div>
+          
+          
+        </div>
+        <div id="messages" class="col-md-5"></div>
+      </div>
+		</div>
+	</section>
+    
+
+    <footer class="panel-footer">
+		<div class="container">
+		  <div class="row">
+			<section id="hours" class="col-sm-4">
+			  <span>Hours:</span><br>
+			  Mon-Friday: 03:15pm - 10:00pm<br>
+			  saturday: 11:15am - 11:59pm<br>
+			  Sunday: 12:00pm - 12:00am
+			  <hr class="visible-xs">
+			</section>
+			<section id="address" class="col-sm-4">
+			  <span>Address:</span><br>
+			  Kot Shahabud Din<br>
+			  Shahdara, Lahore
+			  <p>* Technician charges may apply for the new connection as a One Time charge.</p>
+			  <hr class="visible-xs">
+			</section>
+			<section id="testimonials" class="col-sm-4">
+			  <p>"The best internet service provider with the fastest service ever!"</p>
+			  <p>"Amazing speed with the nice behaviour of the provider!"</p>
+			</section>
+		  </div>
+		  <div class="text-center">&copy; Copyright Dar Communications 2019</div>
+		</div>
+	  </footer>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

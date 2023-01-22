@@ -1,0 +1,178 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: xx-large;
+    background: #060f1e;
+    color: white;
+}
+.btn-outline-success{
+  color: #060f1e;
+  border-color: #060f1e;
+}
+.btn-outline-success:hover{
+  background-color: #060f1e;
+}
+.btn-outline-success:active:focus{
+  box-shadow: 0 0 0 0.25rem #294a83;
+  border-color: #060f1e;
+}
+ footer, header, .package {
+  font-size: 0.45em;
+  font-weight: bold;
+}
+nav.navbar{
+  background-image: url("abstract_1.jpg");
+}
+ul.navbar-nav{
+  
+  color: #060f1e;
+}
+a.navbar-brand>img{
+  width: 8vw;
+}
+a.navbar-brand{
+  padding: 0%;
+}
+.jumbotron-text {
+  padding: 4rem 2rem;
+  margin-bottom: 2rem;
+  border-radius: .3rem;
+  color: rgb(162 221 250);  
+}
+.jumbotron-text span{
+  font-weight: 900;
+  color: rgb(42, 110, 144);
+}
+div.jumbotron-img img{
+  margin-top: 50px;
+  width: 100%;
+  border-radius: 5%;
+}
+.jumbotron{
+  margin: 200px 0 200px;
+}
+a.btn-primary{
+  background-color: rgb(39, 99, 129);
+  border-color: rgb(39, 99, 129);
+  color: rgb(162 221 250);
+}
+a.btn-primary:hover{
+  background-color: rgb(162 221 250);
+  border-color: rgb(162 221 250);
+  color: #060f1e;
+}
+div.card-body{
+  color: #060f1e;
+  background-color: rgb(162 221 250);
+}
+section#ContactUs{
+  height: 100%;
+  margin: 100px 0px;
+}
+.form-floating label{
+  color: black;
+  opacity: .7;
+  font-size: .5em;
+}
+input{
+  height: 50%;
+}
+h2{
+  font-weight: bold;
+  color: rgb(162 221 250);
+  font-size: 1.5em;
+}
+section.packages p.slogan{
+  color: rgb(162 221 250);
+  font-size: 0.8em;
+
+}
+section.packages div.pkg-png img{
+  display: block;
+  margin: auto;
+}
+.packages{
+  margin-bottom: 5vw;
+}
+button.btn{
+  margin-right: 10px;
+  margin-left: 15px;
+}
+.empty{
+  border: 2px solid red;
+}
+#offer{
+  text-align: center;
+  font-size: 0.5em;
+}
+#pk-offer{
+  text-decoration: none;
+  color: rgb(162 221 250);
+}
+#pk-offer:hover{
+  border-bottom: 2px solid rgb(162 221 250);;
+}
+
+/*---------------------------------------------------------------------- End Section: Contact Us ----------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------- FOOTER ----------------------------------------------------------------------*/
+.panel-footer {
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-image: url("abstract_1.jpg");
+	border-top: 0;
+  color: #060f1e;
+  }
+  .panel-footer div.row {
+	margin-bottom: 45px;
+  }
+  #hours, #address {
+	line-height: 2;
+  }
+  #hours > span, #address > span {
+	font-size: 1.3em;
+  }
+  #address p {
+	color: #557c3e;
+	font-size: .8em;
+	line-height: 1.8;
+  }
+  #testimonials {
+	font-style: italic;
+  }
+  #testimonials p:nth-child(2) {
+	margin-top: 25px;
+  }
+  /*---------------------------------------------------------------------- END FOOTER ----------------------------------------------------------------------*/
+
+
+@media (max-width: 991px){
+  a.navbar-brand>img{
+    width: 150px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px){
+  a.navbar-brand>img{
+    width: 10vw;
+  }
+}
+
+
+/* --------------------------------------------------------------------- main content ---------------------------------------------------------------------*/
+
+.slide img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+
+}
+[data-component="slideshow"] .slide {
+  display: flex;
+  display: none;
+}
+
+[data-component="slideshow"] .slide.active {
+  display: block;
+}
+
